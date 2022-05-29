@@ -6,7 +6,7 @@ const refs = {
   textarea: document.querySelector('textarea'),
   email: document.querySelector('input'),
 };
-
+ 
 refs.form.addEventListener('submit', onFormSubmit);
 refs.form.addEventListener('input', throttle(onTextareaInput, 500));
 populateTextarea();
